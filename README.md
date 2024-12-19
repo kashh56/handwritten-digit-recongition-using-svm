@@ -43,9 +43,8 @@ The app processes the uploaded image by performing the following steps:
 
 1.  Converts the image to **grayscale** to match the input format of the MNIST dataset.
 2.  Resizes the image to **28x28 pixels**, the size expected by the model.
-3.  Applies **binarization** (thresholding) to make the digits stand out clearly against the background.
-4.  Uses a pre-trained **SVM classifier** to predict the digit based on the processed image.
-5.  Displays the predicted digit on the app.
+3.  Uses **SVM classifier** to predict the digit based on the processed image.
+4.  Displays the predicted digit on the app.
 
 🛠️ Technologies Used:
 ----------------------

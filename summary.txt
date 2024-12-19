@@ -19,8 +19,6 @@ widget in the Streamlit app.
 - The uploaded image is first converted to grayscale (if it’s not already). This standardizes the image to match the format of the MNIST
   dataset.
 - The image is resized to the required input size of 28x28 pixels, which is the expected input size for the MNIST model.
-- Thresholding (Binarization): The image is converted into a black-and-white (binary) format by applying a threshold. This ensures that
-  the digit is clearly separated from the background.
 - The image is then inverted if necessary (to make the digit black on a white background, as MNIST digits are white on black).
 - The image is normalized, ensuring that pixel values are in the range [0, 1], which is the standard format expected by the model.
 
